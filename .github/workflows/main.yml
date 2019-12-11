@@ -1,1 +1,22 @@
+name: CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: gableroux/unity3d:2019.3.0f1.21f1
+    steps:
+      # Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v1
 
+      # Request manual activation file
+      - name: Request manual activation file
+        uses: webbertakken/unity-request-manual-activation-file@v1
+        id: getManualLicenseFile
+
+      # Upload artifact (Unity_v20XX.X.XXXX.alf)
+      - name: Expose as artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: Manual Activation File
+          path: ${{ steps.getManualLicenseFile.outputs.filePath }}
