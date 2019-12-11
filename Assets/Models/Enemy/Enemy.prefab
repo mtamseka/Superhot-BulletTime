@@ -43,7 +43,6 @@ GameObject:
   - component: {fileID: 5202963501012138696}
   - component: {fileID: 5202963501012138699}
   - component: {fileID: 5202963501012138697}
-  - component: {fileID: 5202963501012138694}
   m_Layer: 0
   m_Name: LowManSpine1
   m_TagString: Enemy
@@ -140,22 +139,6 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &5202963501012138694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 516252599372041302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ffe09b0c9d8e4644bf2b4bb4d526b81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  enemy: {fileID: 5202963500579932578}
-  bodyPartRenderer: {fileID: 0}
-  bodyPartPrefab: {fileID: 0}
 --- !u!1 &593475897461660273
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,7 +151,6 @@ GameObject:
   - component: {fileID: 5202963500994051324}
   - component: {fileID: 5202963500994051327}
   - component: {fileID: 5202963500994051325}
-  - component: {fileID: 5202963500994051322}
   m_Layer: 0
   m_Name: LowManLeftLeg
   m_TagString: Enemy
@@ -266,23 +248,6 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &5202963500994051322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593475897461660273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ffe09b0c9d8e4644bf2b4bb4d526b81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  enemy: {fileID: 5202963500579932578}
-  bodyPartRenderer: {fileID: 8372163068858469746}
-  bodyPartPrefab: {fileID: 6934357218538561259, guid: 3ac65079358bd7b4d87658c8ae550baa,
-    type: 3}
 --- !u!1 &653959333472599658
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,7 +321,6 @@ GameObject:
   - component: {fileID: 5202963500879154992}
   - component: {fileID: 5202963500879154997}
   - component: {fileID: 5202963500879154994}
-  - component: {fileID: 5202963500879154995}
   m_Layer: 0
   m_Name: LowManLeftUpLeg
   m_TagString: Enemy
@@ -454,22 +418,6 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &5202963500879154995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1139513811771650347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ffe09b0c9d8e4644bf2b4bb4d526b81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  enemy: {fileID: 5202963500579932578}
-  bodyPartRenderer: {fileID: 0}
-  bodyPartPrefab: {fileID: 0}
 --- !u!1 &1234899512426525620
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,7 +430,6 @@ GameObject:
   - component: {fileID: 5202963500963673531}
   - component: {fileID: 5202963500963673530}
   - component: {fileID: 5202963500963673528}
-  - component: {fileID: 5202963500963673529}
   m_Layer: 0
   m_Name: LowManRightArm
   m_TagString: Enemy
@@ -580,22 +527,6 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &5202963500963673529
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1234899512426525620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ffe09b0c9d8e4644bf2b4bb4d526b81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  enemy: {fileID: 5202963500579932578}
-  bodyPartRenderer: {fileID: 0}
-  bodyPartPrefab: {fileID: 0}
 --- !u!1 &1299249075170277275
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,7 +539,6 @@ GameObject:
   - component: {fileID: 5202963500131121821}
   - component: {fileID: 5202963500131121820}
   - component: {fileID: 5202963500131121818}
-  - component: {fileID: 5202963500131121819}
   m_Layer: 0
   m_Name: LowManRightForeArm
   m_TagString: Enemy
@@ -706,23 +636,6 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &5202963500131121819
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1299249075170277275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ffe09b0c9d8e4644bf2b4bb4d526b81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  enemy: {fileID: 5202963500579932578}
-  bodyPartRenderer: {fileID: 1392405712651030250}
-  bodyPartPrefab: {fileID: 8801732548567301636, guid: 301147a17a25bec47bc200f3ab249664,
-    type: 3}
 --- !u!1 &1395237125025329732
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,7 +709,6 @@ GameObject:
   - component: {fileID: 5202963501210636118}
   - component: {fileID: 5202963501210636121}
   - component: {fileID: 5202963501210636119}
-  - component: {fileID: 5202963501210636116}
   m_Layer: 0
   m_Name: LowManLeftForeArm
   m_TagString: Enemy
@@ -894,23 +806,6 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &5202963501210636116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1982164360609065972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ffe09b0c9d8e4644bf2b4bb4d526b81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  enemy: {fileID: 5202963500579932578}
-  bodyPartRenderer: {fileID: 3376418899651464693}
-  bodyPartPrefab: {fileID: 5174364098437167931, guid: 40f6b82fc19fca64da66c15d3b9a1192,
-    type: 3}
 --- !u!1 &2027645653109520626
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,7 +851,6 @@ GameObject:
   - component: {fileID: 5202963500295092084}
   - component: {fileID: 5202963500295092089}
   - component: {fileID: 5202963500295092086}
-  - component: {fileID: 5202963500295092087}
   m_Layer: 0
   m_Name: LowManRightUpLeg
   m_TagString: Enemy
@@ -1054,22 +948,6 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &5202963500295092087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2502725894115541210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ffe09b0c9d8e4644bf2b4bb4d526b81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  enemy: {fileID: 5202963500579932578}
-  bodyPartRenderer: {fileID: 0}
-  bodyPartPrefab: {fileID: 0}
 --- !u!1 &2778460417004069500
 GameObject:
   m_ObjectHideFlags: 0
@@ -1082,7 +960,6 @@ GameObject:
   - component: {fileID: 5202963500175694422}
   - component: {fileID: 5202963500175694427}
   - component: {fileID: 5202963500175694424}
-  - component: {fileID: 5202963500175694425}
   m_Layer: 0
   m_Name: LowManLeftArm
   m_TagString: Enemy
@@ -1180,22 +1057,6 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &5202963500175694425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2778460417004069500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ffe09b0c9d8e4644bf2b4bb4d526b81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  enemy: {fileID: 5202963500579932578}
-  bodyPartRenderer: {fileID: 0}
-  bodyPartPrefab: {fileID: 0}
 --- !u!1 &2974348294092576010
 GameObject:
   m_ObjectHideFlags: 0
@@ -1305,11 +1166,12 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 10e4b84bbab515e46a2bdf9b791112a5, type: 2}
-  - {fileID: 2100000, guid: 6f6704d66aa440246a6c2f767e2afeb4, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1442,7 +1304,6 @@ GameObject:
   - component: {fileID: 8264204607587281465}
   - component: {fileID: 5202963499912733635}
   - component: {fileID: 5202963499912733637}
-  - component: {fileID: 5202963499912733634}
   m_Layer: 0
   m_Name: LowManHips
   m_TagString: Enemy
@@ -1496,22 +1357,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.32638013, y: 0.26934576, z: 0.2448703}
   m_Center: {x: -0.000000074505806, y: 0.07688838, z: 0.000000007450581}
---- !u!114 &5202963499912733634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3597242110985534932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ffe09b0c9d8e4644bf2b4bb4d526b81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  enemy: {fileID: 5202963500579932578}
-  bodyPartRenderer: {fileID: 0}
-  bodyPartPrefab: {fileID: 0}
 --- !u!1 &3826803133241202276
 GameObject:
   m_ObjectHideFlags: 0
@@ -1589,11 +1434,12 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 10e4b84bbab515e46a2bdf9b791112a5, type: 2}
-  - {fileID: 2100000, guid: 6f6704d66aa440246a6c2f767e2afeb4, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1724,7 +1570,6 @@ GameObject:
   m_Component:
   - component: {fileID: 958729550641999807}
   - component: {fileID: 7188893668310975173}
-  - component: {fileID: 5202963500579932578}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -1772,20 +1617,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &5202963500579932578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4257395517790182828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d3cab9826ea0b94286eba366c670e6d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dead: 0
-  weaponHolder: {fileID: 4387640250035780534}
 --- !u!1 &4261328125971008903
 GameObject:
   m_ObjectHideFlags: 0
@@ -1891,7 +1722,6 @@ GameObject:
   - component: {fileID: 5202963499601830784}
   - component: {fileID: 5202963499601830789}
   - component: {fileID: 5202963499601830786}
-  - component: {fileID: 5202963499601830787}
   m_Layer: 8
   m_Name: Jericho 941 (1)
   m_TagString: Untagged
@@ -1944,22 +1774,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &5202963499601830787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5202963499601830785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35350572ee3a39b4389676e4a58e5ff2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  active: 1
-  reloading: 0
-  reloadTime: 0.3
-  bulletAmount: 6
 --- !u!1 &5202963501325559319
 GameObject:
   m_ObjectHideFlags: 0
@@ -2014,18 +1828,19 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1395422c95050e1489093fbc4789a0c2, type: 2}
-  - {fileID: 2100000, guid: 1395422c95050e1489093fbc4789a0c2, type: 2}
-  - {fileID: 2100000, guid: 1395422c95050e1489093fbc4789a0c2, type: 2}
-  - {fileID: 2100000, guid: 1395422c95050e1489093fbc4789a0c2, type: 2}
-  - {fileID: 2100000, guid: 1395422c95050e1489093fbc4789a0c2, type: 2}
-  - {fileID: 2100000, guid: 1395422c95050e1489093fbc4789a0c2, type: 2}
-  - {fileID: 2100000, guid: 1395422c95050e1489093fbc4789a0c2, type: 2}
-  - {fileID: 2100000, guid: 1395422c95050e1489093fbc4789a0c2, type: 2}
-  - {fileID: 2100000, guid: 1395422c95050e1489093fbc4789a0c2, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6818,11 +6633,12 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6b0502d80352b2f449dce7ea244f6def, type: 2}
-  - {fileID: 2100000, guid: 6b0502d80352b2f449dce7ea244f6def, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6912,11 +6728,12 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 10e4b84bbab515e46a2bdf9b791112a5, type: 2}
-  - {fileID: 2100000, guid: 6f6704d66aa440246a6c2f767e2afeb4, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7053,11 +6870,12 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 10e4b84bbab515e46a2bdf9b791112a5, type: 2}
-  - {fileID: 2100000, guid: 6f6704d66aa440246a6c2f767e2afeb4, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7257,11 +7075,12 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 10e4b84bbab515e46a2bdf9b791112a5, type: 2}
-  - {fileID: 2100000, guid: 6f6704d66aa440246a6c2f767e2afeb4, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7334,7 +7153,6 @@ GameObject:
   - component: {fileID: 5202963500688979152}
   - component: {fileID: 5202963500688979155}
   - component: {fileID: 5202963500688979153}
-  - component: {fileID: 5202963500688979118}
   m_Layer: 0
   m_Name: LowManHead
   m_TagString: Enemy
@@ -7431,23 +7249,6 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &5202963500688979118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7113603166033599311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ffe09b0c9d8e4644bf2b4bb4d526b81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  enemy: {fileID: 5202963500579932578}
-  bodyPartRenderer: {fileID: 6716030297551684514}
-  bodyPartPrefab: {fileID: 3441970818036421683, guid: 03cd3381438646d4e95d62f0555f5348,
-    type: 3}
 --- !u!1 &7973113939154624138
 GameObject:
   m_ObjectHideFlags: 0
@@ -7584,7 +7385,6 @@ GameObject:
   - component: {fileID: 5202963500663018772}
   - component: {fileID: 5202963500663018775}
   - component: {fileID: 5202963500663018773}
-  - component: {fileID: 5202963500663018770}
   m_Layer: 0
   m_Name: LowManRightLeg
   m_TagString: Enemy
@@ -7682,23 +7482,6 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &5202963500663018770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8269484428557846729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ffe09b0c9d8e4644bf2b4bb4d526b81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  enemy: {fileID: 5202963500579932578}
-  bodyPartRenderer: {fileID: 5652720665623827065}
-  bodyPartPrefab: {fileID: 6877994808578447893, guid: b42f66d61f12eb7469be268bbd7836a5,
-    type: 3}
 --- !u!1 &8652503674872463978
 GameObject:
   m_ObjectHideFlags: 0
@@ -7745,11 +7528,12 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 10e4b84bbab515e46a2bdf9b791112a5, type: 2}
-  - {fileID: 2100000, guid: 6f6704d66aa440246a6c2f767e2afeb4, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
